@@ -22,13 +22,13 @@ cd SCRATCH-1D_1.2
 perl install.pl
 cd ..
 ```
-Run SCRATCH-1D on the provided test dataset:
+* Run SCRATCH-1D on the provided test dataset:
 ```
     ../bin/run_SCRATCH-1D_predictors.sh test.fasta test.out 4
 ```
 (if your computer has less than 4 cores, replace 4 by 1 in the command line above)
 
-The 4 output files:
+* The 4 output files:
 ```
 - test.out.ss
 - test.out.ss8

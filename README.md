@@ -22,6 +22,25 @@ cd SCRATCH-1D_1.2
 perl install.pl
 cd ..
 ```
+Run SCRATCH-1D on the provided test dataset:
+```
+    ../bin/run_SCRATCH-1D_predictors.sh test.fasta test.out 4
+```
+(if your computer has less than 4 cores, replace 4 by 1 in the command line above)
+
+The 4 output files:
+```
+- test.out.ss
+- test.out.ss8
+- test.out.acc
+- test.out.acc20
+```
+
+# Running PTMC
+open cmd in Windows or terminal in Linux, then cd to the PTMC-master/code folder which contains predict.py 
+
+To predict general fasta sequences using our model, run: 
+
+`python predict.py [custom predicting data in test.fasta format] [custom predicting data in test.acc20 format] [ predicting results in csv format]`
 
 
-    

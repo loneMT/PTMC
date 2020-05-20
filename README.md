@@ -16,9 +16,9 @@ pip install xgboost
 
 DISOPRED (version 3.16) (http://bioinfadmin.cs.ucl.ac.uk/downloads/DISOPRED/)
 ```
-Run `wget http://bioinfadmin.cs.ucl.ac.uk/downloads/DISOPRED/DISOPRED3.16.tar.gz`
-Run `tar -xvzf DISOPRED3.16.tar.gz`
-Run `cd DISOPRED/src/`
-Run `make clean; make; make install`
+wget http://bioinfadmin.cs.ucl.ac.uk/downloads/DISOPRED/DISOPRED3.16.tar.gz
+tar -xvzf DISOPRED3.16.tar.gz
+cd DISOPRED/src/
+make clean; make; make install
 ```
     

@@ -14,7 +14,7 @@ pip install sklearn
 pip install xgboost
 ```
 
-DISOPRED (version 3.16) (http://bioinfadmin.cs.ucl.ac.uk/downloads/DISOPRED/)
+*DISOPRED (version 3.16) (http://bioinfadmin.cs.ucl.ac.uk/downloads/DISOPRED/)
 ```
 wget http://bioinfadmin.cs.ucl.ac.uk/downloads/DISOPRED/DISOPRED3.16.tar.gz
 tar -xvzf DISOPRED3.16.tar.gz

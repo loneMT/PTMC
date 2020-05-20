@@ -14,11 +14,14 @@ pip install sklearn
 pip install xgboost
 ```
 
-* DISOPRED (version 3.16) (http://bioinfadmin.cs.ucl.ac.uk/downloads/DISOPRED/)
+* SCRATCH (version SCRATCH-1D release 1.2) (http://scratch.proteomics.ics.uci.edu, Downloads: http://download.igb.uci.edu/#sspro)
 ```
-wget http://bioinfadmin.cs.ucl.ac.uk/downloads/DISOPRED/DISOPRED3.16.tar.gz
-tar -xvzf DISOPRED3.16.tar.gz
-cd DISOPRED/src/
-make clean; make; make install
+wget http://download.igb.uci.edu/SCRATCH-1D_1.2.tar.gz
+tar -xvzf SCRATCH-1D_1.2.tar.gz
+cd SCRATCH-1D_1.2
+perl install.pl
+cd ..
 ```
+
+
     

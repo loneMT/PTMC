@@ -6,7 +6,7 @@ PTMC: Sequence based prediction of transmembrane protein crystallization propens
 # Installation
 * Install Python 3.5 in Linux and Windows.
 * Because the program is written in Python 3.5, python 3.5 with the pip tool must be installed first. 
-* BBPpred uses the following dependencies: numpy, pandas, collection, biopython and sklearn You can install these packages first, by the following commands:
+* PTMC uses the following dependencies: numpy, pandas, collection, biopython and sklearn You can install these packages first, by the following commands:
 ```
 pip install numpy
 pip install biopython==1.73 

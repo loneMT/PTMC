@@ -24,7 +24,7 @@ cd ..
 ```
 * Run SCRATCH-1D on the provided test dataset:
 ```
-    ../bin/run_SCRATCH-1D_predictors.sh test.fasta test.out 4
+../bin/run_SCRATCH-1D_predictors.sh test.fasta test.out 4
 ```
 (if your computer has less than 4 cores, replace 4 by 1 in the command line above)
 

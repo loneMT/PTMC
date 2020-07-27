@@ -10,7 +10,7 @@ PTMC: Sequence based prediction of transmembrane protein crystallization propens
 ```
 pip install numpy
 pip install biopython==1.73 
-pip install sklearn
+pip install sklearn==0.20.3
 pip install xgboost==
 ```
 

@@ -11,7 +11,7 @@ PTMC: Sequence based prediction of transmembrane protein crystallization propens
 pip install numpy
 pip install biopython==1.73 
 pip install sklearn
-pip install xgboost
+pip install xgboost==
 ```
 
 * SCRATCH (version SCRATCH-1D release 1.2) (http://scratch.proteomics.ics.uci.edu, Downloads: http://download.igb.uci.edu/#sspro)
@@ -41,6 +41,6 @@ open cmd in Windows or terminal in Linux, then cd to the PTMC-master/code folder
 
 To predict general fasta sequences using our model, run: 
 
-`python predict.py [custom predicting data in test.fasta format] [custom predicting data in test.acc20 format] [ predicting results in csv format]`
+`python PTMC.py [custom predicting data in test.fasta format] [custom predicting data in test.acc20 format] [ predicting results in csv format]`
 
 

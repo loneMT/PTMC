@@ -10,8 +10,8 @@ PTMC: Sequence based prediction of transmembrane protein crystallization propens
 ```
 pip install numpy
 pip install biopython==1.73 
-pip install sklearn==0.20.3
-pip install xgboost==
+pip install scikit-learn==0.22
+pip install xgboost==0.90
 ```
 
 * SCRATCH (version SCRATCH-1D release 1.2) (http://scratch.proteomics.ics.uci.edu, Downloads: http://download.igb.uci.edu/#sspro)
